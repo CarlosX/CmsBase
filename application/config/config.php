@@ -16,19 +16,21 @@
 */
 $config['base_url']	= '';
 
-/*
-|--------------------------------------------------------------------------
-| Index File
-|--------------------------------------------------------------------------
-|
-| Typically this will be your index.php file, unless you've renamed it to
-| something else. If you are using mod_rewrite to remove the page set this
-| variable so that it is blank.
-|
-*/
+
+$config['title'] = "CMS BASE";
+$config['theme'] = "default";
+
+$config['server_name'] = "Test Server";
+$config['realmlist'] = "logon.test.com";
+
+
 $config['index_page'] = 'index.php';
 
-$config['theme'] = "default";
+
+$config['keywords'] = "cms, base";
+$config['description'] = "Cms Base.";
+
+
 
 /*
 |--------------------------------------------------------------------------

@@ -26,7 +26,7 @@ class News extends MX_Controller
 	 */
 	public function index()
 	{
-		//requirePermission("view");
+		requirePermission("view");
 
 		if($this->config->item('news_internal'))
 			$this->getNews();

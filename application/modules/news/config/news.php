@@ -21,6 +21,6 @@ $config['news_limit'] = 5;
 | RSS Feed configuration
 |--------------------------------------------------------------------------
 */
-$config['rss_feed_name'] = "Xataclysm.com";
-$config['rss_description'] = "The best world of warcraft server in the world!";
+$config['rss_feed_name'] = ":D";
+$config['rss_description'] = "Description";
 $config['rss_lang'] = "en-us";
