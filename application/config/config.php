@@ -18,7 +18,7 @@ $config['base_url']	= '';
 
 
 $config['title'] = "CMS BASE";
-$config['theme'] = "default";
+$config['theme'] = "inmortal";
 
 $config['server_name'] = "Test Server";
 $config['realmlist'] = "logon.test.com";
@@ -29,6 +29,14 @@ $config['index_page'] = 'index.php';
 
 $config['keywords'] = "cms, base";
 $config['description'] = "Cms Base.";
+
+$config['rewrite'] = true;
+
+
+$config['slider'] = true;
+$config['slider_home'] = true;
+$config['slider_interval'] = 5000;
+$config['slider_style'] = "slide";
 
 
 
