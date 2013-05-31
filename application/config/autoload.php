@@ -64,7 +64,7 @@ $autoload['libraries'] = array('cache','database', 'session','Smarty','template'
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'file','parser_helper','lang_helper','emulator_helper','permission_helper');
+$autoload['helper'] = array('url', 'file','parser_helper','breadcumb','form','lang_helper','emulator_helper','permission_helper');
 
 
 /*
