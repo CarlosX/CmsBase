@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('cache','database', 'session','Smarty','template','language','user','realms','acl');
+$autoload['libraries'] = array('cache','database', 'session','Smarty','template','language','user','realms','acl','logger','plugins');
 
 
 /*
@@ -80,7 +80,7 @@ $autoload['helper'] = array('url', 'file','parser_helper','lang_helper','emulato
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('default_language','acl_defaults');
 
 
 /*

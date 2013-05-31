@@ -30,6 +30,11 @@ $config['index_page'] = 'index.php';
 $config['keywords'] = "cms, base";
 $config['description'] = "Cms Base.";
 
+
+$config['disabled_expansions'] = array();
+
+
+
 $config['rewrite'] = true;
 
 
@@ -39,6 +44,7 @@ $config['slider_interval'] = 5000;
 $config['slider_style'] = "slide";
 
 
+$config['cache'] = true;
 
 /*
 |--------------------------------------------------------------------------

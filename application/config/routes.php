@@ -41,6 +41,11 @@
 $route['default_controller'] = "news";
 $route['404_override'] = 'error';
 
+$route['news/(:num)'] = "news/index/$1";
+
+$route['page/admin/(:any)'] = "page/admin/$1";
+$route['page/admin'] = "page/admin/index";
+$route['page/(:any)'] = "page/index/$1";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
